@@ -9,6 +9,11 @@ A simple web-based image editor built with **React** and **Fabric.js**. Users ca
 
 ---
 
+## 🚀 Live Demo
+
+🔗 [Deployed App Link](https://image-editor-eta-coral.vercel.app/)  
+
+
 ## 🔧 Tech Stack
 
 - React
@@ -50,3 +55,19 @@ npm run dev
 
 
 > The app will run at: [http://localhost:5173](http://localhost:5173)
+
+
+## 🛠️ How to Run the Project Locally (ZIP Version)
+
+1. **Download and Extract the ZIP:**
+
+   - Download the ZIP folder from the shared Google Drive link.
+   - Extract the folder to your desired location.
+
+2. **Install Dependencies:**
+
+   Open your terminal and run:
+   ```bash
+   cd folder-name
+   npm install
+   npm run dev
