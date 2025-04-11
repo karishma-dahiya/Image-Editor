@@ -1,12 +1,54 @@
-# React + Vite
+# 🖼️ Image Editor Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web-based image editor built with **React** and **Fabric.js**. Users can:
 
-Currently, two official plugins are available:
+- Search and load images from a free image API
+- Add text or shapes to the image
+- Customize fill color and position
+- Download the final edited image
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Fabric.js
+- Tailwind CSS
+- Pixabay API
+
+---
+
+## 🚀 How to Use
+
+1. **Search an Image**  
+   Type a keyword in the search box to load a relevant image onto the canvas.
+
+2. **Edit the Image**
+   - Use the toolbar to add **Text** or **Shapes**
+   - Customize color, position, size, and rotation
+   - Delete any object you no longer want
+
+3. **Undo / Redo**
+   - You can undo or redo only **adding or deleting** objects on the canvas.
+
+4. **Download**
+   - Once you're happy with your design, click "Download" to save the final image.
+
+---
+
+## 🛠️ How to Run Locally
+
+Follow these steps to set up and run the project on your local machine:
+
+**Clone the Repository 
+
+If using Git:
+```bash
+git clone https://github.com/karishma-dahiya/Image-Editor.git
+cd image-editor
+npm install
+npm run dev
+```
+
+
+> The app will run at: [http://localhost:5173](http://localhost:5173)
