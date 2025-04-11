@@ -28,10 +28,8 @@ A simple web-based image editor built with **React** and **Fabric.js**. Users ca
    - Customize color, position, size, and rotation
    - Delete any object you no longer want
 
-3. **Undo / Redo**
-   - You can undo or redo only **adding or deleting** objects on the canvas.
 
-4. **Download**
+3. **Download**
    - Once you're happy with your design, click "Download" to save the final image.
 
 ---
